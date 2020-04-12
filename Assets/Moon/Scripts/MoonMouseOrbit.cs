@@ -3,7 +3,7 @@ using System;
 
 [AddComponentMenu("Camera-Control/Mouse Orbit")]
 
-public class PlanetMouseOrbit:MonoBehaviour{
+public class MoonMouseOrbit:MonoBehaviour{
     public Transform target;
     public float distance = 10.0f;
     public float xSpeed = 250.0f;

@@ -2,7 +2,7 @@ using UnityEngine;
 using System;
 
 
-public class PlanetRotateScript:MonoBehaviour
+public class SunRotateScript:MonoBehaviour
 {
     public int speed =1 ;
     public void Update() {
