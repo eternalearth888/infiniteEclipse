@@ -1763,7 +1763,7 @@ PrefabInstance:
     - target: {fileID: 7375657748158114163, guid: ea368348ea31921419809ce006d30793,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 846
+      value: 960.6
       objectReference: {fileID: 0}
     - target: {fileID: 7375657748158114163, guid: ea368348ea31921419809ce006d30793,
         type: 3}
@@ -1773,7 +1773,7 @@ PrefabInstance:
     - target: {fileID: 7375657748158114163, guid: ea368348ea31921419809ce006d30793,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 382.5
+      value: 594.4
       objectReference: {fileID: 0}
     - target: {fileID: 7375657748158114163, guid: ea368348ea31921419809ce006d30793,
         type: 3}
@@ -1901,6 +1901,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TheWorldTerrain
       objectReference: {fileID: 0}
+    - target: {fileID: 2624184462662230144, guid: 2bd9f07bde91b884391ca6fa92a1b9d7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2624184462662230147, guid: 2bd9f07bde91b884391ca6fa92a1b9d7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1954,6 +1959,11 @@ PrefabInstance:
     - target: {fileID: 2624184462662230147, guid: 2bd9f07bde91b884391ca6fa92a1b9d7,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2624184462662230145, guid: 2bd9f07bde91b884391ca6fa92a1b9d7,
+        type: 3}
+      propertyPath: m_EnableTreeColliders
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
