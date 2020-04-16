@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1246,22 +1246,22 @@ PrefabInstance:
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.06954876
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.3832526
+      value: -0.37688926
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.1676134
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9236436
+      value: 0.9083079
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
@@ -1281,7 +1281,7 @@ PrefabInstance:
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -20.911001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74c25dc10c6d82c4a98fa8e298e07ef8, type: 3}
@@ -1357,6 +1357,11 @@ PrefabInstance:
       propertyPath: lightEmitter
       value: 
       objectReference: {fileID: 2126670445}
+    - target: {fileID: 333959850895283503, guid: 6a71a4c2fcde34547a1d4af6a9c3a1ee,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 697b9ba42f5d02447a757399b466ce80, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a71a4c2fcde34547a1d4af6a9c3a1ee, type: 3}
 --- !u!1001 &5378367956716201746
