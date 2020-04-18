@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+#Unity Scenes to Ignore
+moutainSceneV4.unity
+moutainSceneV4.unity.meta
