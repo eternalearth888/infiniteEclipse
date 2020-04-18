@@ -141,12 +141,18 @@ public class SunbeamLightEmitter : MonoBehaviour
 	    			// reflect line again
 	    			ReflectLineRenderer(position, direction, reflectionsLeft - 1);
 	    			break;
-	    		case "isSwitch": 
+	    		case "isSwitchisReflective": 
 	    			ActivateSwitch(hit.collider.gameObject);
 	    			direction = Vector3.Reflect(direction, hit.normal);
 	    			position = hit.point;
 	    			_lineVertices.Add(position);
 					ReflectLineRenderer(hit.point, direction, reflectionsLeft - 1);
+					if (hit.collider.gameObject.GetComponent<LightSwitch>().startSwitch) return;
+                    break;
+                case "isSwitchisNOTReflective": 
+	    			ActivateSwitch(hit.collider.gameObject);
+	    			position = hit.point;
+	    			_lineVertices.Add(position);
 					if (hit.collider.gameObject.GetComponent<LightSwitch>().startSwitch) return;
                     break;
           		default: // tag: "notReflective" : trees, walls, main character, etc.

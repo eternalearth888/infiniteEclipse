@@ -7,12 +7,14 @@ TagManager:
   - notReflective
   - lightSource
   - isReflective
-  - isSwitch
   - switchResult
   - Fire
   - player
   - tree
   - water
+  - isSwitchisNOTReflective
+  - isSwitchisReflective
+  - isSwitch
   layers:
   - Default
   - TransparentFX

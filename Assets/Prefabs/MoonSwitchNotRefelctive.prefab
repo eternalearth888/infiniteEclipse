@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 333959850895283502}
   - component: {fileID: 333959850895283497}
   m_Layer: 0
-  m_Name: testSwitch
-  m_TagString: isSwitch
+  m_Name: MoonSwitchNotRefelctive
+  m_TagString: isSwitchisNOTReflective
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
