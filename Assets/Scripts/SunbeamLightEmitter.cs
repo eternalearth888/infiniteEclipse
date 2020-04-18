@@ -134,6 +134,7 @@ public class SunbeamLightEmitter : MonoBehaviour
     		switch(go.tag)
     		{
     			case "isReflective":
+    				direction = (hit.collider.transform.position - _lineVertices[_lineVertices.Count-1]).normalized; //Direction fixed to mirror center
 	    			direction = Vector3.Reflect(direction, hit.normal);
 	    			//direct hit anywhere on the mirror
 	    			position = hit.point;
@@ -142,6 +143,7 @@ public class SunbeamLightEmitter : MonoBehaviour
 	    			ReflectLineRenderer(position, direction, reflectionsLeft - 1);
 	    			break;
 	    		case "isSwitchisReflective": 
+	    			direction = (hit.collider.transform.position - _lineVertices[_lineVertices.Count-1]).normalized; //Direction fixed to mirror center
 	    			ActivateSwitch(hit.collider.gameObject);
 	    			direction = Vector3.Reflect(direction, hit.normal);
 	    			position = hit.point;
@@ -149,7 +151,7 @@ public class SunbeamLightEmitter : MonoBehaviour
 					ReflectLineRenderer(hit.point, direction, reflectionsLeft - 1);
 					if (hit.collider.gameObject.GetComponent<LightSwitch>().startSwitch) return;
                     break;
-                case "isSwitchisNOTReflective": 
+                case "isSwitchisNOTReflective": // make it so line goes through this
 	    			ActivateSwitch(hit.collider.gameObject);
 	    			position = hit.point;
 	    			_lineVertices.Add(position);
