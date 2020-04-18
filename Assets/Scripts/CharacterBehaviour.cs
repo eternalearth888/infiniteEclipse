@@ -64,11 +64,12 @@ public class CharacterBehaviour : MonoBehaviour
 	      {
 	        if (mouseOverObject != null)
 	        {
+                // add tags to me to make them moveable
 	            switch (mouseOverObject.tag)
 	            {
 	                case "isReflective":
-	                case "isSwitch":    
-	                    fpc.isEditingStatue = true;
+	                case "isSwitchisReflective":    
+                        fpc.isEditingStatue = true;
 	                    editStatue = mouseOverObject;
 	                    previousStatueRotation = editStatue.transform.rotation;
 	                    break;

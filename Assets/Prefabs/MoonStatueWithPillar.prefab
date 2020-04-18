@@ -39,45 +39,40 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7144886309119328281}
     m_Modifications:
-    - target: {fileID: 97091071863534498, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
-        type: 3}
-      propertyPath: m_Name
-      value: MoonStatueCube
-      objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 722.79
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.07
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 714.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.34361216
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.22011898
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.07981097
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9094551
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
@@ -87,17 +82,17 @@ PrefabInstance:
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 36.147003
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -34.315002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -21.537
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 97091071863534502, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
         type: 3}
@@ -113,6 +108,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 97091071863534498, guid: 74c25dc10c6d82c4a98fa8e298e07ef8,
+        type: 3}
+      propertyPath: m_Name
+      value: MoonStatueCube
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74c25dc10c6d82c4a98fa8e298e07ef8, type: 3}
@@ -135,15 +135,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4308599782211030, guid: f64f4b0df449d454e85736dfccdbb72a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 722.83
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4308599782211030, guid: f64f4b0df449d454e85736dfccdbb72a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.09
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4308599782211030, guid: f64f4b0df449d454e85736dfccdbb72a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 714.64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4308599782211030, guid: f64f4b0df449d454e85736dfccdbb72a, type: 3}
       propertyPath: m_LocalRotation.x
