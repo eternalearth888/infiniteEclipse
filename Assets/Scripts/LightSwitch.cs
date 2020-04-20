@@ -61,4 +61,5 @@ public class LightSwitch : MonoBehaviour
     	lightEmitter = null;
     	_renderer.material.SetColor("_Color", inactiveColor);
     }
+
 }

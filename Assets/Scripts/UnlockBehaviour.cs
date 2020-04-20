@@ -31,7 +31,7 @@ public class UnlockBehaviour : MonoBehaviour
     {
     	isOpen = true;
     	GetComponent<MeshRenderer>().enabled = false;
-    	GetComponent<BoxCollider>().enabled = false;
+    	GetComponent<MeshCollider>().enabled = false;
 
     }
 
@@ -39,7 +39,7 @@ public class UnlockBehaviour : MonoBehaviour
     {
     	isOpen = false;
  	   	GetComponent<MeshRenderer>().enabled = true;
-    	GetComponent<BoxCollider>().enabled = true;
+    	GetComponent<MeshCollider>().enabled = true;
 
     }
 }
