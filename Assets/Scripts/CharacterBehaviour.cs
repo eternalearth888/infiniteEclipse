@@ -39,7 +39,7 @@ public class CharacterBehaviour : MonoBehaviour
 
             Vector3 currentRotation = editStatue.transform.rotation.eulerAngles;
             Vector3 newRotation = currentRotation;
-            if (editStatue.tag == "isReflective" || editStatue.tag == "isSwitch")
+            if (editStatue.tag == "isReflective" || editStatue.tag == "isSwitchisReflective")
            // if (editStatue.tag == "isReflective" || editStatue.tag == "isSwitch" || editStatue.tag == "isSwitchisReflective") //edit/debug all mirrors
             {
                 newRotation = new Vector3(currentRotation.x + vertical, currentRotation.y + horizontal, currentRotation.z);

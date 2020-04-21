@@ -16,7 +16,7 @@ public class LightSwitch : MonoBehaviour
 	public Color inactiveColor;
 	public Color activeColor;
 
-	private Renderer _renderer;
+	private MeshRenderer _renderer;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +26,7 @@ public class LightSwitch : MonoBehaviour
    			startLight = GameObject.Find("SunBeamStone");
    		}
 
-   		_renderer = GetComponent<Renderer>();
+   		_renderer = GetComponent<MeshRenderer>();
     }
 
     // Update is called once per frame

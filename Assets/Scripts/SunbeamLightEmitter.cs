@@ -155,6 +155,7 @@ public class SunbeamLightEmitter : MonoBehaviour
 	    			ActivateSwitch(hit.collider.gameObject);
 	    			position = hit.point;
 	    			_lineVertices.Add(position);
+                    ReflectLineRenderer(hit.point + direction, direction, reflectionsLeft - 1);
 					if (hit.collider.gameObject.GetComponent<LightSwitch>().startSwitch) return;
                     break;
           		default: // tag: "notReflective" : trees, walls, main character, etc.
