@@ -16,7 +16,7 @@ using System.Collections.Generic;
 public class SunbeamLightEmitter : MonoBehaviour
 {
     public int maxReflectionCount = 50;
-    public float maxStepDistance = 20000;
+    public float maxStepDistance = 200000;
 
 	// Game world line/light
     private LineRenderer _lineRenderer;
