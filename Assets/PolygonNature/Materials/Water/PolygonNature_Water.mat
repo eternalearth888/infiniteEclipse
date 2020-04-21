@@ -4,19 +4,27 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: PolygonNature_Water
-  m_Shader: {fileID: 4800000, guid: 1ab581f9e0198304996581171522f458, type: 3}
-  m_ShaderKeywords: _GLOSSYREFLECTIONS_OFF _SPECULARHIGHLIGHTS_OFF
+  m_Shader: {fileID: -6465566751694194690, guid: e6861b70998103d4ab00bcc8f01a97fe,
+    type: 3}
+  m_ShaderKeywords: _FLIPBOOKBLENDING_OFF _GLOSSYREFLECTIONS_OFF _RECEIVE_SHADOWS_OFF
+    _SPECULARHIGHLIGHTS_OFF
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_CustomRenderQueue: 3000
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -42,7 +50,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2edd58f7c433e934db9029c375173b44, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -57,6 +65,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _WaterNormal:
         m_Texture: {fileID: 2800000, guid: edddba054057d7c49b0669dc00b76644, type: 3}
         m_Scale: {x: 5, y: 5}
@@ -66,10 +78,33 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_4AB35C1F: 1
+    - Vector1_7564D9D4: 0.5
+    - Vector1_786746F4: 0
+    - Vector1_98BBEF1: 0
+    - Vector1_C025D8E5: 1
+    - Vector1_DBE53451: 1
+    - Vector1_DF07556D: 5
+    - Vector1_F3CD828D: 5
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BlendOp: 0
     - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0.1
     - _DstBlend: 0
+    - _EnvironmentReflections: 1
+    - _FlipbookBlending: 0
+    - _FlipbookMode: 0
     - _FoamDepth: 1.3
     - _FoamFalloff: -4.81
     - _FoamSmoothness: -21.95
@@ -80,9 +115,17 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _Smoothness: 0.5
+    - _SmoothnessSource: 0
     - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 0
     - _SrcBlend: 1
+    - _Surface: 0
     - _UVSec: 0
     - _WaterDepth: 0.09
     - _WaterFalloff: 2
@@ -92,10 +135,21 @@ Material:
     - _WaterSmoothness: 2
     - _WaterSpecular: 0
     - _WaterSpeed: 0.042
+    - _WorkflowMode: 1
     - _ZWrite: 1
     - __dirty: 1
     m_Colors:
+    - Color_54B18994: {r: 0.1500617, g: 0.5071051, b: 1.272937, a: 0}
+    - Color_80A47FA5: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 0}
+    - Color_81EC1B4E: {r: 0.8160377, g: 0.9946678, b: 1, a: 0}
+    - Color_DA7D120A: {r: 1, g: 1, b: 1, a: 0}
+    - Vector2_D652E4B7: {r: 0.1, g: -0.1, b: 0, a: 0}
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _WaterDeepColor: {r: 0.14901961, g: 0.28235295, b: 0.29411766, a: 0}
     - _WaterShallowColor: {r: 0.3019608, g: 0.427451, b: 0.41960788, a: 0}
