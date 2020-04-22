@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0f75e224a963f42438d36d650500a2e8, type: 2}
+  - {fileID: 2100000, guid: 261d76336d6ee364a979e4f66bc776fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,8 +106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fda13fee34954f44f9ff8a5cbae66f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxReflectionCount: 5
-  maxStepDistance: 200
+  maxReflectionCount: 50
+  maxStepDistance: 2000
   _activeStatues: []
   _parentLightEmitter: {fileID: 6886397739386904481}
   _startSwitchOn: 0
