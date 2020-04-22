@@ -8443,17 +8443,17 @@ PrefabInstance:
     - target: {fileID: 7942924511128229250, guid: 0d53301a2e4bf6748bbafe7607115709,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 366
+      value: 365.5
       objectReference: {fileID: 0}
     - target: {fileID: 7942924511128229250, guid: 0d53301a2e4bf6748bbafe7607115709,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 566
+      value: 572.3
       objectReference: {fileID: 0}
     - target: {fileID: 7942924511128229250, guid: 0d53301a2e4bf6748bbafe7607115709,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 465
+      value: 465.2
       objectReference: {fileID: 0}
     - target: {fileID: 7942924511128229250, guid: 0d53301a2e4bf6748bbafe7607115709,
         type: 3}
