@@ -4105,6 +4105,7 @@ GameObject:
   - component: {fileID: 899632395}
   - component: {fileID: 899632394}
   - component: {fileID: 899632393}
+  - component: {fileID: 899632396}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -4186,6 +4187,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899632391}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &899632396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899632391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9e424e8a1102ed4b8ffa9ae79801ea7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockedLinkObject: {fileID: 1758594615}
+  isOpen: 0
 --- !u!1 &905825668
 GameObject:
   m_ObjectHideFlags: 0
@@ -8340,7 +8355,7 @@ PrefabInstance:
     - target: {fileID: 7375657748158346579, guid: ea368348ea31921419809ce006d30793,
         type: 3}
       propertyPath: m_Name
-      value: FPSController Variant
+      value: fpsPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 7375657748158114163, guid: ea368348ea31921419809ce006d30793,
         type: 3}
@@ -8516,6 +8531,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2624184462662230147, guid: 2bd9f07bde91b884391ca6fa92a1b9d7,
     type: 3}
   m_PrefabInstance: {fileID: 923733876}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1758594615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 333959850895283496, guid: 6a71a4c2fcde34547a1d4af6a9c3a1ee,
+    type: 3}
+  m_PrefabInstance: {fileID: 2104355306}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1758594620 stripped
 Transform:
@@ -10067,6 +10088,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.025000012
       objectReference: {fileID: 0}
+    - target: {fileID: 333959850895283497, guid: 6a71a4c2fcde34547a1d4af6a9c3a1ee,
+        type: 3}
+      propertyPath: startLight
+      value: 
+      objectReference: {fileID: 1699678770}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a71a4c2fcde34547a1d4af6a9c3a1ee, type: 3}
 --- !u!1001 &2143452258
