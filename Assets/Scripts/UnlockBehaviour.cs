@@ -30,16 +30,16 @@ public class UnlockBehaviour : MonoBehaviour
     private void Open()
     {
     	isOpen = true;
-    	GetComponent<MeshRenderer>().enabled = false;
-    	GetComponent<MeshCollider>().enabled = false;
+    	GetComponent<Renderer>().enabled = false;
+    	GetComponent<Collider>().enabled = false;
 
     }
 
     private void Close()
     {
     	isOpen = false;
- 	   	GetComponent<MeshRenderer>().enabled = true;
-    	GetComponent<MeshCollider>().enabled = true;
+ 	   	GetComponent<Renderer>().enabled = true;
+    	GetComponent<Collider>().enabled = true;
 
     }
 }
