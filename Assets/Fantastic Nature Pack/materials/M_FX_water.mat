@@ -12,27 +12,36 @@ Material:
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
+  m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - Texture2D_9C1354E0:
+        m_Texture: {fileID: 2800000, guid: 1f8e9587054460c4ea1ffb27da4a6368, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_4AB35C1F: 0
-    - Vector1_7564D9D4: 0.34
-    - Vector1_786746F4: 0
-    - Vector1_98BBEF1: 1
-    - Vector1_C025D8E5: 1.6
-    - Vector1_DBE53451: 3.34
-    - Vector1_DF07556D: 8.67
-    - Vector1_F3CD828D: 1.76
+    - Vector1_4AB35C1F: 0.4
+    - Vector1_7564D9D4: 0.49
+    - Vector1_786746F4: 0.1
+    - Vector1_81A325C: 0
+    - Vector1_98BBEF1: 1.3
+    - Vector1_C025D8E5: 1.99
+    - Vector1_CE0A1D1: 0.3
+    - Vector1_CE879C73: 2
+    - Vector1_DBE53451: 4.65
+    - Vector1_DF07556D: 10
+    - Vector1_F3CD828D: 0.25
     m_Colors:
-    - Color_54B18994: {r: 0, g: 0.5134945, b: 1, a: 0}
-    - Color_80A47FA5: {r: 0.8396226, g: 0.8396226, b: 0.8396226, a: 0}
-    - Color_81EC1B4E: {r: 0.3724635, g: 0.773805, b: 0.8490566, a: 0}
-    - Color_C36B2D16: {r: 0, g: 0, b: 0, a: 0}
-    - Color_DA7D120A: {r: 1, g: 1, b: 1, a: 0}
-    - Vector2_D652E4B7: {r: 0.05, g: 0, b: 0, a: 0}
+    - Color_42506C43: {r: 0, g: 0, b: 0, a: 0}
+    - Color_54B18994: {r: 0, g: 0.32941177, b: 3.592157, a: 0}
+    - Color_80A47FA5: {r: 0.7176471, g: 0.7176471, b: 0.72156864, a: 1}
+    - Color_81EC1B4E: {r: 0.8160377, g: 0.9946678, b: 1, a: 0}
+    - Color_D4FF726E: {r: 0, g: 0, b: 0, a: 0}
+    - Color_DA7D120A: {r: 0.13333334, g: 0.8862745, b: 1.3019608, a: 1}
+    - Vector2_C9ABB48D: {r: 2, g: 0, b: 0, a: 0}
+    - Vector2_D652E4B7: {r: 0.5, g: -0.01, b: 0, a: 0}
