@@ -15,6 +15,7 @@ TagManager:
   - isSwitchisNOTReflective
   - isSwitchisReflective
   - isSwitch
+  - archPortal
   layers:
   - Default
   - TransparentFX
