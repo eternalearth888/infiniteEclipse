@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 8497c4113e8dcb643b0c86ef1b3b4def
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Moonrise
+  fontNames:
+  - Moonrise
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 725869c7d72662a46a2c282155a4aaa2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
