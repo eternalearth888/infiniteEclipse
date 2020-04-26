@@ -18,6 +18,9 @@ public class CharacterBehaviour : MonoBehaviour
 	//mouse related stuff
 	public GameObject mouseOverObject;
 
+    //edit statue, border image/ui mode
+    public GameObject editUIObject;
+
 	private void Awake(){
 		characterSingleton = this;
 	}
@@ -26,6 +29,8 @@ public class CharacterBehaviour : MonoBehaviour
     void Start()
     {
     	fpc = GetComponent<FirstPersonController>();
+        // this ui doesn't show unless they are editing the statue
+        editUIObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -33,7 +38,9 @@ public class CharacterBehaviour : MonoBehaviour
     {
     	 if (fpc.isEditingStatue) //while the player is editing/manipulating the statue
         {
-            
+            //turn border ui on
+            editUIObject.SetActive(true);
+
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
 
@@ -51,12 +58,16 @@ public class CharacterBehaviour : MonoBehaviour
             {
                 fpc.isEditingStatue = false;
                 editStatue = null;
+                // turn off the edit border
+                editUIObject.SetActive(false);
             }
             else if (Input.GetMouseButtonDown(1)) //cancel  on a right click
             {
                 fpc.isEditingStatue = false;
                 editStatue.transform.rotation = previousStatueRotation;
                 editStatue = null;
+                // turn off the edit border
+                editUIObject.SetActive(false);
             }
         }
         else
