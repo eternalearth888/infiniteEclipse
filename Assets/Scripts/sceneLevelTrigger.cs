@@ -5,10 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class sceneLevelTrigger : MonoBehaviour
 {
-	public string nextScene;
+	// current scene
+	public Scene currentScene;
+	//next scene
+	public int currentSceneIndex;
 
-	void onTriggerEnter(Collider Other)  {
+	void OnTriggerEnter(Collider player)  {
+		Debug.Log("Trigger Activated");
     	// Load the next scene in the build index
-    	SceneManager.LoadScene(nextScene);
+    	if (player.gameObject.tag == "player")
+        {
+        	currentScene = SceneManager.GetActiveScene();
+        	currentSceneIndex =  currentScene.buildIndex;
+
+    		SceneManager.LoadScene(currentSceneIndex+1);
+        }
     }
 }

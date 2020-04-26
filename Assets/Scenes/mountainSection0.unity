@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3714,7 +3714,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586314528}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -3765,7 +3765,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82e4b78ee31291e44973fd5f45c27711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: mountainSection0.5
+  currentScene:
+    m_Handle: 0
+  currentSceneIndex: 0
 --- !u!1 &640516407
 GameObject:
   m_ObjectHideFlags: 0

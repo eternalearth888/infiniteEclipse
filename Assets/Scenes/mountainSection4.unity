@@ -4297,6 +4297,7 @@ GameObject:
   - component: {fileID: 793118767}
   - component: {fileID: 793118766}
   - component: {fileID: 793118765}
+  - component: {fileID: 793118769}
   m_Layer: 0
   m_Name: fromPuzzle5toPuzzle6beginScene5
   m_TagString: Untagged
@@ -4312,7 +4313,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793118764}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -4324,7 +4325,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793118764}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4377,6 +4378,21 @@ Transform:
   m_Father: {fileID: 542159101}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 5, z: 0}
+--- !u!114 &793118769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793118764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e4b78ee31291e44973fd5f45c27711, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScene:
+    m_Handle: 0
+  currentSceneIndex: 0
 --- !u!1001 &808384647
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9449,6 +9449,7 @@ GameObject:
   - component: {fileID: 1608267392}
   - component: {fileID: 1608267391}
   - component: {fileID: 1608267395}
+  - component: {fileID: 1608267396}
   m_Layer: 0
   m_Name: fromPuzzle2toPuzzle3beginScene2
   m_TagString: Untagged
@@ -9541,7 +9542,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 82e4b78ee31291e44973fd5f45c27711, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: mountainSection2
+  currentScene:
+    m_Handle: 0
+  currentSceneIndex: 0
+--- !u!114 &1608267396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608267390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e4b78ee31291e44973fd5f45c27711, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentScene:
+    m_Handle: 0
+  currentSceneIndex: 0
 --- !u!1001 &1608400898
 PrefabInstance:
   m_ObjectHideFlags: 0
