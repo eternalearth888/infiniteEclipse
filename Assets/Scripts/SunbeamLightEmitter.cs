@@ -53,7 +53,7 @@ public class SunbeamLightEmitter : MonoBehaviour
 
     // only shows in Scene not in game. this will allow you to see what is happening so you 
     // can debug and figure out what you wanna do
-    void OnDrawGizmos()
+ /*   void OnDrawGizmos()
     {
         Handles.color = Color.red;
         Handles.ArrowHandleCap(0, this.transform.position + this.transform.forward * 0.25f, this.transform.rotation, 0.5f, EventType.Repaint);
@@ -61,7 +61,7 @@ public class SunbeamLightEmitter : MonoBehaviour
         Gizmos.DrawWireSphere(this.transform.position, 0.25f);
 
         DrawPredictedReflectionPattern(this.transform.position + this.transform.forward * 0.75f, this.transform.forward, maxReflectionCount);
-    }
+    }*/
 
     // draw the light for gizmos
     private void DrawPredictedReflectionPattern(Vector3 position, Vector3 direction, int reflectionsRemaining)
