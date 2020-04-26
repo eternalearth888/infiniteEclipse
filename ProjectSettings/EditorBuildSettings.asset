@@ -4,5 +4,35 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/titleScene.unity
+    guid: b7ee8daa2fa534b45950d8e4b4ef46e5
+  - enabled: 1
+    path: Assets/Scenes/mountainSection0.unity
+    guid: 5d5156892a369154d8de7151b9337a21
+  - enabled: 1
+    path: Assets/Scenes/mountainSection0.5.unity
+    guid: 94f69e53a52856143a8e37ddebed115d
+  - enabled: 1
+    path: Assets/Scenes/mountainSection1.unity
+    guid: cee22a9780bfd3e42a921a05b2446897
+  - enabled: 1
+    path: Assets/Scenes/mountainSection2.unity
+    guid: 52a7d003be4911f489305d5765318485
+  - enabled: 1
+    path: Assets/Scenes/mountainSection3.unity
+    guid: 6bf23870a488ce5499f109a6b62b9012
+  - enabled: 1
+    path: Assets/Scenes/mountainSection4.unity
+    guid: 1dc6f0d74ed23904db533bb4458c67d8
+  - enabled: 1
+    path: Assets/Scenes/mountainSection5.unity
+    guid: a300195854f010048aded2a2d7e8c4d6
+  - enabled: 1
+    path: Assets/Scenes/mountainSection6.unity
+    guid: 7099a2dd039183847854fbeb11d62462
+  - enabled: 1
+    path: Assets/Scenes/mountainSectionEnd.unity
+    guid: 47255cfa35216f9448e642ac46fa2558
   m_configObjects: {}
