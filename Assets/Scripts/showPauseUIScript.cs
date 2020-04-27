@@ -6,32 +6,26 @@ public class showPauseUIScript : MonoBehaviour
 {
     public GameObject uiObject;
     
-    public static bool GameIsPaused = false;
+    public bool GameIsPaused = false;
 
     void Update()
     {
 
     	// player hits escape is not currently paused
-   		if(Input.GetKeyDown(KeyCode.Escape)) 
-	    {     
-	    	Debug.Log("Player hit escape");
-
-	    	// if the player is paused and they  hit escape, unpause the game
-		    if (GameIsPaused)
-		    {
-		    	Resume();
-		    } 
-		    else if (GameIsPaused && Input.GetKeyDown(KeyCode.Q) == true) //keycodes need verbose booleans
-		    {
-		    	// if the player is paused and they press the Q button, quit the game
-		    	Debug.Log("Quit");
-		    	Application.Quit();
-		    }
-		    else
-		    {
-		    	// if they player is playing and they hit escape, pause the game
-		    	Pause();
-		    }
+   		if(Input.GetKeyDown(KeyCode.Escape) && !GameIsPaused) 
+   		{
+   			Debug.Log("Pause");
+   			Pause();
+   		}
+		else  if (Input.GetKeyDown(KeyCode.Escape) && GameIsPaused) // if the player is paused and they  hit escape, unpause the game
+	    {
+	    	Debug.Log("Resume");
+	    	Resume();
+	    } 
+		else if (GameIsPaused && Input.GetKeyDown(KeyCode.Q))    // if the player is paused and they press the Q button, quit the game
+	    {
+	    	Debug.Log("Quit");
+	    	Application.Quit();
 	    }
     }   
 
