@@ -61,3 +61,174 @@ crashlytics-build.properties
 #Unity Scenes to Ignore
 moutainSceneV4.unity
 moutainSceneV4.unity.meta
+Infinite Eclipse.exe
+Infinite Eclipse_Data/app.info
+Infinite Eclipse_Data/boot.config
+Infinite Eclipse_Data/globalgamemanagers
+Infinite Eclipse_Data/globalgamemanagers.assets
+Infinite Eclipse_Data/level0
+Infinite Eclipse_Data/level1
+Infinite Eclipse_Data/level1.resS
+Infinite Eclipse_Data/level2
+Infinite Eclipse_Data/level2.resS
+Infinite Eclipse_Data/level3
+Infinite Eclipse_Data/level3.resS
+Infinite Eclipse_Data/level4
+Infinite Eclipse_Data/level4.resS
+Infinite Eclipse_Data/level5
+Infinite Eclipse_Data/level5.resS
+Infinite Eclipse_Data/level6
+Infinite Eclipse_Data/level6.resS
+Infinite Eclipse_Data/level7
+Infinite Eclipse_Data/level7.resS
+Infinite Eclipse_Data/level8
+Infinite Eclipse_Data/level8.resS
+Infinite Eclipse_Data/level9
+Infinite Eclipse_Data/level9.resS
+Infinite Eclipse_Data/Managed/Assembly-CSharp-firstpass.dll
+Infinite Eclipse_Data/Managed/Assembly-CSharp.dll
+Infinite Eclipse_Data/Managed/Mono.Security.dll
+Infinite Eclipse_Data/Managed/mscorlib.dll
+Infinite Eclipse_Data/Managed/netstandard.dll
+Infinite Eclipse_Data/Managed/System.ComponentModel.Composition.dll
+Infinite Eclipse_Data/Managed/System.Configuration.dll
+Infinite Eclipse_Data/Managed/System.Core.dll
+Infinite Eclipse_Data/Managed/System.Data.dll
+Infinite Eclipse_Data/Managed/System.Diagnostics.StackTrace.dll
+Infinite Eclipse_Data/Managed/System.dll
+Infinite Eclipse_Data/Managed/System.Drawing.dll
+Infinite Eclipse_Data/Managed/System.EnterpriseServices.dll
+Infinite Eclipse_Data/Managed/System.Globalization.Extensions.dll
+Infinite Eclipse_Data/Managed/System.IO.Compression.dll
+Infinite Eclipse_Data/Managed/System.IO.Compression.FileSystem.dll
+Infinite Eclipse_Data/Managed/System.Net.Http.dll
+Infinite Eclipse_Data/Managed/System.Numerics.dll
+Infinite Eclipse_Data/Managed/System.Runtime.dll
+Infinite Eclipse_Data/Managed/System.Runtime.Serialization.dll
+Infinite Eclipse_Data/Managed/System.Runtime.Serialization.Xml.dll
+Infinite Eclipse_Data/Managed/System.ServiceModel.Internals.dll
+Infinite Eclipse_Data/Managed/System.Transactions.dll
+Infinite Eclipse_Data/Managed/System.Xml.dll
+Infinite Eclipse_Data/Managed/System.Xml.Linq.dll
+Infinite Eclipse_Data/Managed/System.Xml.XPath.XDocument.dll
+Infinite Eclipse_Data/Managed/Unity.Burst.dll
+Infinite Eclipse_Data/Managed/Unity.Burst.Unsafe.dll
+Infinite Eclipse_Data/Managed/Unity.Mathematics.dll
+Infinite Eclipse_Data/Managed/Unity.Postprocessing.Runtime.dll
+Infinite Eclipse_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll
+Infinite Eclipse_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll
+Infinite Eclipse_Data/Managed/Unity.RenderPipelines.Lightweight.Runtime.dll
+Infinite Eclipse_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Infinite Eclipse_Data/Managed/Unity.TextMeshPro.dll
+Infinite Eclipse_Data/Managed/Unity.Timeline.dll
+Infinite Eclipse_Data/Managed/UnityEngine.AccessibilityModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.AIModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.AndroidJNIModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.AnimationModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.ARModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.AssetBundleModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.AudioModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.ClothModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.ClusterInputModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.ClusterRendererModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.CoreModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.CrashReportingModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.DirectorModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.dll
+Infinite Eclipse_Data/Managed/UnityEngine.DSPGraphModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.FileSystemHttpModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.GameCenterModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.GridModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.HotReloadModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.ImageConversionModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.IMGUIModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.InputLegacyModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.InputModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.JSONSerializeModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.LocalizationModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.ParticleSystemModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.PerformanceReportingModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.Physics2DModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.PhysicsModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.ProfilerModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.ScreenCaptureModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.SharedInternalsModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.SpriteMaskModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.SpriteShapeModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.StreamingModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.SubstanceModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.TerrainModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.TextCoreModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.TextRenderingModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.TilemapModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.TLSModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UI.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UIElementsModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UIModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UmbraModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UNETModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UnityConnectModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UnityTestProtocolModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UnityWebRequestModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.VehiclesModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.VFXModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.VideoModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.VRModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.WindModule.dll
+Infinite Eclipse_Data/Managed/UnityEngine.XRModule.dll
+Infinite Eclipse_Data/Plugins/lib_burst_generated.dll
+Infinite Eclipse_Data/Plugins/lib_burst_generated.txt
+Infinite Eclipse_Data/resources.assets
+Infinite Eclipse_Data/resources.assets.resS
+Infinite Eclipse_Data/Resources/unity default resources
+Infinite Eclipse_Data/Resources/unity_builtin_extra
+Infinite Eclipse_Data/sharedassets0.assets
+Infinite Eclipse_Data/sharedassets0.assets.resS
+Infinite Eclipse_Data/sharedassets0.resource
+Infinite Eclipse_Data/sharedassets1.assets
+Infinite Eclipse_Data/sharedassets1.assets.resS
+Infinite Eclipse_Data/sharedassets1.resource
+Infinite Eclipse_Data/sharedassets2.assets
+Infinite Eclipse_Data/sharedassets3.assets
+Infinite Eclipse_Data/sharedassets3.assets.resS
+Infinite Eclipse_Data/sharedassets4.assets
+Infinite Eclipse_Data/sharedassets5.assets
+Infinite Eclipse_Data/sharedassets6.assets
+Infinite Eclipse_Data/sharedassets6.assets.resS
+Infinite Eclipse_Data/sharedassets7.assets
+Infinite Eclipse_Data/sharedassets7.resource
+Infinite Eclipse_Data/sharedassets8.assets
+Infinite Eclipse_Data/sharedassets8.assets.resS
+Infinite Eclipse_Data/sharedassets9.assets
+Infinite Eclipse_Data/sharedassets9.assets.resS
+MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll
+MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll
+MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser
+MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+MonoBleedingEdge/etc/mono/2.0/machine.config
+MonoBleedingEdge/etc/mono/2.0/settings.map
+MonoBleedingEdge/etc/mono/2.0/web.config
+MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser
+MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx
+MonoBleedingEdge/etc/mono/4.0/machine.config
+MonoBleedingEdge/etc/mono/4.0/settings.map
+MonoBleedingEdge/etc/mono/4.0/web.config
+MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser
+MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx
+MonoBleedingEdge/etc/mono/4.5/machine.config
+MonoBleedingEdge/etc/mono/4.5/settings.map
+MonoBleedingEdge/etc/mono/4.5/web.config
+MonoBleedingEdge/etc/mono/browscap.ini
+MonoBleedingEdge/etc/mono/config
+MonoBleedingEdge/etc/mono/mconfig/config.xml
+ProjectSettings/BurstAotSettings_StandaloneWindows.json
+ProjectSettings/GraphicsSettings.asset
+ProjectSettings/UnityConnectSettings.asset
+UnityCrashHandler32.exe
+UnityPlayer.dll
