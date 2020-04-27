@@ -15,7 +15,7 @@ public class showTextDialogue : MonoBehaviour
     {
         if (player.gameObject.tag == "player")
         {
-        	Debug.Log("OnTriggerEnter Activated");
+        	//Debug.Log("OnTriggerEnter Activated");
             uiObject.SetActive(true);
             StartCoroutine("WaitForSec");
         }

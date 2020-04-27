@@ -36,6 +36,7 @@ public class CharacterBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
     	 if (fpc.isEditingStatue) //while the player is editing/manipulating the statue
         {
             //turn border ui on
